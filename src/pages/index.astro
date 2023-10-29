@@ -13,17 +13,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
+			<p>コンポーネントは、page/配下でフォルダを分けながら作ることになる。そのためインデックスページには全体に表示できるようなUIにしたい。</p>
+			<p>
+				マークダウンファイルをブログ記事として利用している件について、パーツに関する詳細な情報をどこに残しておくかという問題があり。普段Notionを使っているので、NOtionでもいいと現状持っている。しかし問題としてNotionアカウントがないとログインできなくなるという物がある。ここをどうするのが、いいだろうか。マークダウンとして扱えるのであれば、それでもいいと思うが、色々使いやすさを加味すると、ソースコードはこのgitを使いつつ、コメントはメモはNotionを使う。共有ブロックになる問題は、課金しても致し方ない気もするな。
+			</p>
+
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to
-				build a personal website, blog, or portfolio with Astro.
+				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template serves as a lightweight, minimally-styled starting point for anyone looking to build a personal website, blog, or portfolio with Astro.
 			</p>
 			<p>
 				This template comes with a few integrations already configured in your
 				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like
-				Tailwind, React, or Vue to your project.
+				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind, React, or Vue to your project.
 			</p>
 			<p>Here are a few ideas on how to get started with the template:</p>
 			<ul>
@@ -34,15 +36,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
 			</ul>
 			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/">read the docs</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
 			</p>
 			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+				Looking for a blog template with a bit more personality? Check out <a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
 			</p>
 		</main>
 		<Footer />
